@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav li {
+    margin-right: auto;
+    margin-right: 15px;
+}
+span{
+    color: #FFA41B;
+}
+.banner .about h1{
+    font-size: 4em;
+}
+.about p{
+    text-align: justify;
+}
+.job{
+    content: attr(job1);
+    overflow: hidden;
+    display: inline-flex;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #FFA41B, #F65F0E);
+}
+.card-body i{
+    font-size: 55px;
+    display: block;
+    text-align: center;
+    color: #FFA41B;
+}
+.list .poin{
+    width: 100%;
+    height: 20px;
+    box-shadow: 5px 5px 15px whitesmoke, -5px -5px 15px whitesmoke;
+    border-radius: 10px;
+    position: relative;
+}
+.list .poin::before{
+    position: absolute;
+    height: 100%;
+    width: var(--point);
+    content: '';
+    background-image: linear-gradient(to right, #FFA41B, #F65F0E);
+    border-radius: 10px;
+}
+section{
+    padding: 25px;
+    padding-top: 8rem;
+}
+.footer{
+    display: grid;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    margin-top: 25px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.footer-content p{
+    max-width: 600px;
+    line-height: 20px;
+    font-size: 15px;
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 0rem 0rem 0rem;
+}
+.social li{
+    margin: 0 10px;
+}
+.social a i{
+    font-size: 1.5rem;
+    transition: color .4s ease;
+}
+.social a:hover{
+    color: #FFA41B;
+}
+.footer-buttom{
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-buttom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
